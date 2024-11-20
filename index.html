@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta de Hábitos y Opiniones</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1 id="title">Encuesta de Hábitos y Opiniones</h1>
+    <p id="description">Tus respuestas son valiosas. Completa este formulario para ayudarnos a entender mejor tus hábitos y opiniones.</p>
+
+    <form id="survey-form">
+        <label id="name-label" for="name">Nombre Completo:</label>
+        <input type="text" id="name" required placeholder="Ingresa tu nombre completo">
+
+        <label id="email-label" for="email">Correo Electrónico:</label>
+        <input type="email" id="email" required placeholder="Ingresa tu correo electrónico">
+
+        <label id="number-label" for="number">Número:</label>
+        <input type="number" id="number" required placeholder="Ingresa un número" min="0" max="100">
+
+        <label id="phone-number-label" for="phone-number">Número de Teléfono:</label>
+        <input type="tel" id="phone-number" required placeholder="Formato: 123-456-7890" pattern="\d{3}-\d{3}-\d{4}" title="Formato: 123-456-7890">
+
+        <label id="age-label" for="age">Edad:</label>
+        <input type="number" id="age" min="18" max="100" required placeholder="Ingresa tu edad">
+
+        <label for="dropdown">Selecciona una opción:</label>
+        <select id="dropdown" required>
+            <option value="">Selecciona una opción</option>
+            <option value="opcion1">Opción 1</option>
+            <option value="opcion2">Opción 2</option>
+        </select>
+
+        <label for="lifestyle">¿Cuál de los siguientes estilos de vida describe mejor el tuyo?</label>
+        <select id="lifestyle" required>
+            <option value="">Selecciona una opción</option>
+            <option value="activo">Activo</option>
+            <option value="sedentario">Sedentario</option>
+            <option value="intermedio">Intermedio</option>
+        </select>
+
+        <fieldset>
+            <legend>¿Qué tan importante es para ti la salud mental?</legend>
+            <label>
+                <input type="radio" name="mental_health" value="muy_importante" required> Muy importante
+            </label>
+            <label>
+                <input type="radio" name="mental_health" value="importante"> Importante
+            </label>
+            <label>
+                <input type="radio" name="mental_health" value="poco_importante"> Poco importante
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>¿Con qué frecuencia practicas algún deporte o actividad física?</legend>
+            <label>
+                <input type="checkbox" value="nunca"> Nunca
+            </label>
+            <label>
+                <input type="checkbox" value="ocasionalmente"> Ocasionalmente
+            </label>
+            <label>
+                <input type="checkbox" value="regularmente"> Regularmente
+            </label>
+            <label>
+                <input type="checkbox" value="diariamente"> Diariamente
+            </label>
+        </fieldset>
+
+        <label for="favorite_activity">¿Qué tipo de actividades disfrutas hacer en tu tiempo libre?</label>
+        <textarea id="favorite_activity" placeholder="Describe tus actividades favoritas aquí..."></textarea>
+
+        <label for="social_media">¿Qué redes sociales utilizas más a menudo?</label>
+        <input type="text" id="social_media" required placeholder="Ingresa las redes sociales que usas">
+
+        <label for="opinions">¿Tienes alguna opinión sobre el uso de tecnología en la educación?</label>
+        <textarea id="opinions" placeholder="Escribe tu opinión aquí..."></textarea>
+
+        <button type="submit" id="submit">Enviar Encuesta</button>
+    </form>
+
+</body>
+</html>
