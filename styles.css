@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Fondo negro */
+    background-image: url('https://wallpapers.elprofejorge.com/wp-content/uploads/2018/04/Leonine-wallpaper-11102023-2.jpg'); 
+    background-size: cover; /* Hace que la imagen cubra todo el fondo */
+    background-position: center; /* Centra la imagen */
+    margin: 0;
+    padding: 20px;
+    color: white; /* Color de texto blanco para que resalte sobre el fondo oscuro */
+}
+
+h1, p {
+    text-align: center;
+    color: white; /* Asegura que el texto en el título y la descripción sea blanco */
+}
+
+form {
+    background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.8), rgba(255, 204, 204, 0.8)); /* Fondo en degradado de blanco a un tono rojo claro */
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #333; /* Color de texto oscuro dentro del formulario */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #d9534f; /* Color rojo para las etiquetas */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #d9534f; /* Borde rojo */
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="number"]:focus,
+select:focus,
+textarea:focus {
+    border-color: #ff4d4d; /* Cambiar a rojo más oscuro cuando está enfocado */
+    outline: none;
+}
+
+button {
+    background-color: #d9534f; /* Color de fondo del botón rojo */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s; /* Transición suave al cambiar de color */
+}
+
+button:hover {
+    background-color: #c9302c; /* Color más oscuro en hover */
+}
+
+fieldset {
+    border: 2px solid #d9534f; /* Borde rojo en fieldset */
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+legend {
+    font-weight: bold;
+    padding: 0 10px;
+    color: #d9534f; /* Color del texto de los campos de opción en rojo */
+}
