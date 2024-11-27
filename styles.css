@@ -15,7 +15,7 @@ h1, p {
 }
 
 form {
-    background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.8), rgba(17, 218, 61, 0.8)); /* Fondo en degradado de blanco a un tono rojo claro */
+    background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.8), rgba(12, 243, 243, 0.8)); /* Fondo en degradado de blanco a un tono rojo claro */
     border-radius: 8px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
     max-width: 600px;
@@ -67,11 +67,11 @@ button {
 }
 
 button:hover {
-    background-color: #0ecca3; /* Color más oscuro en hover */
+    background-color: #df0606; /* Color más oscuro en hover */
 }
 
 fieldset {
-    border: 2px solid #0e1bc9; /* Borde rojo en fieldset */
+    border: 2px solid #0cffff; /* Borde rojo en fieldset */
     border-radius: 4px;
     padding: 10px;
     margin-bottom: 15px;
