@@ -15,7 +15,7 @@ h1, p {
 }
 
 form {
-    background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.8), rgba(250, 0, 0, 0.8)); /* Fondo en degradado de blanco a un tono rojo claro */
+    background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.8), rgba(12, 204, 238, 0.8)); /* Fondo en degradado de blanco a un tono rojo claro */
     border-radius: 8px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
     max-width: 600px;
@@ -40,7 +40,7 @@ textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
-    border: 1px solid #d9534f; /* Borde rojo */
+    border: 1px solid #1071df; /* Borde rojo */
     border-radius: 4px;
     box-sizing: border-box;
 }
